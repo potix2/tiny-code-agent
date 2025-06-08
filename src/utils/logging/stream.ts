@@ -1,6 +1,6 @@
-import type { Logger, LogLevel } from "./logger.js";
-import { LogLevelPriority } from "./logger.js";
 import type { Writable } from "node:stream";
+import type { LogLevel, Logger } from "./logger.js";
+import { LogLevelPriority } from "./logger.js";
 
 export interface StreamLoggerOptions {
 	stream: Writable;
@@ -8,7 +8,7 @@ export interface StreamLoggerOptions {
 }
 
 export class StreamLogger implements Logger {
-	private stream: Writable;
+	protected stream: Writable;
 	public level: LogLevel;
 
 	constructor(opts: StreamLoggerOptions) {
@@ -52,7 +52,7 @@ export class StreamLogger implements Logger {
 	}
 
 	public dispose(): void {
-		if ('end' in this.stream && typeof this.stream.end === 'function') {
+		if ("end" in this.stream && typeof this.stream.end === "function") {
 			this.stream.end();
 		}
 	}
