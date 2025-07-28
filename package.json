@@ -35,7 +35,7 @@
 		"tiny-code": "dist/index.cjs"
 	},
 	"dependencies": {
-		"@anthropic-ai/sdk": "^0.53.0",
+		"@anthropic-ai/sdk": "^0.57.0",
 		"commander": "^14.0.0",
 		"diff-match-patch": "^1.0.5",
 		"neverthrow": "^8.2.0",
