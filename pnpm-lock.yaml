@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@anthropic-ai/sdk':
-        specifier: ^0.53.0
-        version: 0.53.0
+        specifier: ^0.59.0
+        version: 0.59.0
       commander:
         specifier: ^14.0.0
         version: 14.0.0
@@ -58,8 +58,8 @@ packages:
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
 
-  '@anthropic-ai/sdk@0.53.0':
-    resolution: {integrity: sha512-bl2frVo0cgHCXTzQEIHXPH329uQXC4YKBaLBkZmUc59tNiR3GgcGpBZU7mwfyv5tPuU/yT7tGHyoe5AnjN02QA==}
+  '@anthropic-ai/sdk@0.59.0':
+    resolution: {integrity: sha512-m9w9tC+N+GUNprwEOhU3VKKSYwXA1fIevRCe7kOFonV4xu5vxqmqyoLy+dkdVvc5W1F4WUTVE/7I4criaF9gnw==}
     hasBin: true
 
   '@babel/helper-string-parser@7.27.1':
@@ -1084,6 +1084,7 @@ packages:
   source-map@0.8.0-beta.0:
     resolution: {integrity: sha512-2ymg6oRBpebeZi9UUNsgQ89bhx01TcTkmNTGnNO88imTmbSgy4nfujrgVEFKWpMTEGA11EDkTt7mqObTPdigIA==}
     engines: {node: '>= 8'}
+    deprecated: The work that was done in this beta branch won't be included in future versions
 
   stackback@0.0.2:
     resolution: {integrity: sha512-1XMJE5fQo1jGH6Y/7ebnwPOBEkIEnT4QF32d5R1+VXdXveM0IBMJt8zfaxX1P3QhVwrYe+576+jkANtSS2mBbw==}
@@ -1317,7 +1318,7 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.8
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@anthropic-ai/sdk@0.53.0': {}
+  '@anthropic-ai/sdk@0.59.0': {}
 
   '@babel/helper-string-parser@7.27.1': {}
 
