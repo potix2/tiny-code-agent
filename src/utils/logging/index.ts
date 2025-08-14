@@ -1,1 +1,1 @@
-import { createLogger } from "./logger-factory.js";
+export * from "./logger-factory.js";
