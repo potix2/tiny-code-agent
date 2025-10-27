@@ -36,7 +36,7 @@
 	},
 	"dependencies": {
 		"@anthropic-ai/sdk": "^0.59.0",
-		"commander": "^14.0.0",
+		"commander": "^14.0.2",
 		"diff-match-patch": "^1.0.5",
 		"neverthrow": "^8.2.0",
 		"prompts": "^2.4.2"
